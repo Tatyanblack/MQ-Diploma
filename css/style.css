@@ -1407,6 +1407,9 @@ a.article-img {
 
 	background-color: #f4f7f6;
 	border: none;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 @media screen and (min-width: 641px) and (max-width: 1199px) {
