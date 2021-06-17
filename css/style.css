@@ -1394,7 +1394,11 @@ a.article-img {
 }
 
 .field-search {
-	width: 229px;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 229px;
 	height: 50px;
 	padding-top: 2px;
 	padding-left: 18px;
@@ -1407,9 +1411,6 @@ a.article-img {
 
 	background-color: #f4f7f6;
 	border: none;
-
-	-webkit-appearance: none;
-	-moz-appearance: none;
 }
 
 @media screen and (min-width: 641px) and (max-width: 1199px) {
